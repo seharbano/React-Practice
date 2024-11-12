@@ -30,7 +30,7 @@ const UseEffectFetchDataOnMount = ({name,email}: Props) => {
     fetchUserData();
   }, []);
 
-  if (loading) return <p>Loading...</p>;
+  if (loading) return <p>Loading.....</p>;
   if (error) return <p>Error: {error}</p>;
 
   return (
